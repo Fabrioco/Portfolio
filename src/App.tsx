@@ -1,7 +1,11 @@
-export default function App(){
-  return(
+import Header from "./components/header";
+import './assets/styles/GlobalStyles.css'
+import './assets/styles/Root.css'
+
+export default function App() {
+  return (
     <div>
-      <h1>Portfolio</h1>
+      <Header />
     </div>
   )
 }
