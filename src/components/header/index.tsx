@@ -1,7 +1,7 @@
 import laptop from "../../assets/images/laptop.svg";
 import "./header.css";
 
-function Header() {
+export function Header() {
   return (
     <header>
       <main>
@@ -25,12 +25,9 @@ function Header() {
         </ul>
       </nav>
       <section>
-
         <span className="btnLanguage selecioned">Pt</span>
         <span className="btnLanguage">En</span>
       </section>
     </header>
   );
 }
-
-export default Header;

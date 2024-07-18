@@ -3,7 +3,7 @@ header {
   justify-content: space-around;
   align-items: center;
   background-color: var(--color-bg);
-  width: 80%;
+  width: max(600px, 80%);
   margin: auto;
   height: 80px;
   border-radius: 17px 17px 0 0;

@@ -1,0 +1,12 @@
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.image-main {
+    width: clamp(250px, 60%, 800px);
+    align-self: center;
+    justify-self: center;
+}
