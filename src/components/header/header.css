@@ -1,0 +1,74 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--color-bg);
+  width: max(600px, 80%);
+  margin: auto;
+  height: 80px;
+  border-radius: 17px 17px 0 0;
+}
+
+header > main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: transparent;
+}
+
+.titleHeader {
+  font-family: var(--font-title);
+  color: var(--color-first);
+}
+
+header > nav > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.link,
+.link > a {
+  font-family: var(--font-paragraph);
+  color: var(--color-second);
+  text-decoration: none;
+  transition: all 300ms;
+}
+
+.link.selecioned,
+.link.selecioned > a {
+  color: var(--color-first);
+}
+
+.link.selecioned:hover,
+.link.selecioned:hover > a {
+  text-shadow: 0 0 7px var(--color-first);
+}
+
+.link:hover,
+.link:hover > a {
+  text-shadow: 0 0 7px #0000009e;
+}
+
+header > section {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  color: var(--color-second);
+  font-family: var(--font-paragraph);
+}
+
+.btnLanguage {
+  cursor: pointer;
+  transition: all 300ms;
+}
+
+.btnLanguage.selecioned {
+  font-weight: 600;
+  padding: 0 5px;
+}
+
+.btnLanguage:first-child {
+  border-right: 1px solid #fefefe;
+}

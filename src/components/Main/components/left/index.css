@@ -1,0 +1,60 @@
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: clamp(200px, 50%, 600px);
+  min-height: 400px;
+  padding: 0 30px;
+}
+
+.main-content > h1 {
+  font-family: var(--font-title);
+  color: var(--color-second);
+  font-size: 2.3rem;
+  font-weight: 400;
+}
+
+.main-content > p {
+  font-family: var(--font-paragraph);
+  color: var(--color-third);
+  letter-spacing: 1px;
+  width: max(150px, 100%);
+}
+
+.main-content > h2 {
+  width: 100%;
+  font-family: var(--font-paragraph);
+  color: var(--color-second);
+  font-weight: 400;
+}
+
+.main-content > div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: var(--color-third);
+  font-family: var(--font-paragraph);
+  gap: 10px;
+}
+
+.main-content > button {
+  color: #0c0c0c;
+  font-family: var(--font-paragraph);
+  padding: 5px 10px;
+  width: 180px;
+  max-height: 32px;
+  text-align: center;
+  background-color: var(--color-first);
+  font-weight: bold;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0 0 7px 0 #0c0c0cab;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.main-content > button:active {
+  background-color: #17a258;
+}

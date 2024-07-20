@@ -1,0 +1,38 @@
+.right-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: clamp(200px, 60%, 500px);
+  min-height: 450px;
+  padding: 0 30px;
+}
+
+.job {
+  display: flex;
+  flex-direction: column;
+}
+
+.job > h2 {
+  padding-bottom: 50px;
+  font-family: var(--font-title);
+  color: #fefefe;
+  font-weight: 400;
+}
+
+.job > p {
+  color: var(--color-third);
+  font-family: var(--font-paragraph);
+}
+
+.right-content > nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  color: var(--color-second);
+  height: 32px;
+}
+
+.icon {
+  cursor: pointer;
+}
