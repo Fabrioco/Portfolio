@@ -10,7 +10,7 @@ export function Header() {
       </main>
       <nav>
         <ul>
-          <li className="link selecioned">
+          <li className="link">
             <a href="#">Main</a>
           </li>
           <li className="link">
@@ -24,10 +24,6 @@ export function Header() {
           </li>
         </ul>
       </nav>
-      <section>
-        <span className="btnLanguage selecioned">Pt</span>
-        <span className="btnLanguage">En</span>
-      </section>
     </header>
   );
 }

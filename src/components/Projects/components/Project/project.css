@@ -34,7 +34,7 @@
   max-width: 250px;
   min-height: 180px;
   border-radius: 15px;
-  transform: translateY(46px);
+  transform: translateY(30px);
 }
 
 .project-img > .link {
@@ -53,10 +53,19 @@
   justify-content: center;
   gap: 10px;
   background-color: #333448ad;
-  padding: 5px 0;
+  height: 30px;
   position: relative;
-  top: 1px;
+  top: -15px;
   width: 100%;
   z-index: 1;
   border-radius: 0 0 15px 15px;
+}
+
+.project > .desc {
+  font-family: var(--font-paragraph);
+  color: var(--color-third);
+  font-weight: 400;
+  text-align: center;
+  padding-top: 10px;
+  width: 100%;
 }

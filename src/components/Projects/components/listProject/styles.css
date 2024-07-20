@@ -4,8 +4,6 @@
   justify-content: space-around;
   align-items: center;
   width: 80%;
-  height: 500px;
+  height: 450px;
   background-color: var(--color-bg);
-  margin: auto;
-  padding: 30px 0;
 }

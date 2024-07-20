@@ -1,4 +1,5 @@
 import "./index.css";
+import curriculo from "../../../../assets/files/curriculo-fabricio-lopes.pdf";
 
 export default function Left() {
   return (
@@ -9,7 +10,9 @@ export default function Left() {
         responsivas. Apaixonado por aprender novas tecnologias e enfrentar
         desafios complexos.
       </p>
-      <button>Baixar Curriculo</button>
+      <a href={curriculo} download>
+        Baixar Curriculo
+      </a>
     </div>
   );
 }
