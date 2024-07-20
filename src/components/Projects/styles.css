@@ -9,3 +9,11 @@
   justify-content: space-around;
   border-bottom: 1px solid #69696982;
 }
+
+.projects-container > .title {
+  font-family: var(--font-title);
+  color: #fefefe;
+  padding: 15px 30px;
+  font-weight: 400;
+  align-self: flex-start;
+}

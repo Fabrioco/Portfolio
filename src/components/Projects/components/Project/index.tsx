@@ -1,14 +1,24 @@
 import { FaGithub } from "react-icons/fa";
+import "./project.css";
 
-export default function Project() {
+interface ProjectProps {
+  title: string;
+  img: string;
+  link: string;
+}
+
+export default function Project({ title, img, link }: ProjectProps) {
   return (
-    <div>
-      <span>Nome do projeto</span>
-      <div>
-        <img src="" alt="" />
-        <p>
-          Ver código <FaGithub />
+    <div className="project">
+      <span className="title">{title}</span>
+      <div className="project-img">
+        <img src={img} alt={title} className="img" />
+        <p className="link">
+          <a href={link}>
+            Ver código &rarr; <FaGithub />
+          </a>
         </p>
+        <p>{}</p>
       </div>
     </div>
   );
