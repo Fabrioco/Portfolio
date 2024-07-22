@@ -4,6 +4,17 @@ body {
   background-color: #222433;
 }
 
+.App {
+  background-color: #222433;
+  width: 100%;
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
 .border-left {
   width: 10%;
   min-height: 3377px;
