@@ -9,24 +9,28 @@ export default function ListProjects() {
   return (
     <div className="list">
       <Project
-        title="E-commerce Virtual"
+        title="Loja Papelaria"
         img={loja}
         link="https://github.com/Fabrioco/Loja"
+        desc="E-commerce"
       />
       <Project
         title="Dog Imperador"
         img={dog}
         link="https://github.com/Fabrioco/dog-imperador"
+        desc="Landing Page"
       />
       <Project
         title="Prime-Flix"
         img={flix}
         link="https://github.com/Fabrioco/Prime-Flix"
+        desc="Landing Page"
       />
       <Project
         title="DevFood"
         img={devfood}
         link="https://github.com/Fabrioco/DevFood"
+        desc="App Mobile"
       />
     </div>
   );

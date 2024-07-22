@@ -1,4 +1,4 @@
-import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import "./right.css";
 
 export default function Right() {
@@ -9,22 +9,16 @@ export default function Right() {
         <p>Fabriciooliveiralopes50@gmail.com</p>
         <p>+55 11 96016-8159</p>
       </div>
-      <nav>
-        <div className="border-icon">
-          <i className="icon">
-            <FaInstagram size={30} />
-          </i>
-        </div>
-        <div className="border-icon">
-          <i className="icon">
-            <FaLinkedin size={30} />
-          </i>
-        </div>
-        <div className="border-icon">
-          <i className="icon">
-            <FaGithub size={30} />
-          </i>
-        </div>
+      <nav className="icons">
+        <a
+          href="https://www.linkedin.com/in/fabrício-oliveira-lopes-b713892bb"
+          className="icon"
+        >
+          <FaLinkedin size={30} />
+        </a>
+        <a href="https://github.com/Fabrioco" className="icon">
+          <FaGithub size={30} />
+        </a>
       </nav>
     </div>
   );

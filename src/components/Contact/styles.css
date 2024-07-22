@@ -1,0 +1,40 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  height: 450px;
+  margin: auto;
+  padding-bottom: 30px;
+  background-color: var(--color-bg);
+  border-bottom: 1px solid #69696982;
+}
+
+.contact > .title {
+  font-family: var(--font-title);
+  color: #fefefe;
+  padding: 15px 30px;
+  font-weight: 400;
+  align-self: flex-start;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-paragraph);
+  color: #fefefe;
+  gap: 20px;
+}
+
+.contact-content > p {
+  font-size: 18px;
+  text-align: center;
+}
+
+.contact > .circular-text {
+  align-self: self-start;
+  z-index: 1;
+  color: #fefefe;
+  font-family: var(--font-paragraph);
+}

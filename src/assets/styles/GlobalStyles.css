@@ -3,3 +3,23 @@ body {
   padding: 0;
   background-color: #222433;
 }
+
+.border-left {
+  width: 10%;
+  min-height: 3377px;
+  background-color: #222433;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.border-right {
+  width: 10%;
+  min-height: 3377px;
+  background-color: #222433;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+}

@@ -5,9 +5,10 @@ interface ProjectProps {
   title: string;
   img: string;
   link: string;
+  desc: string;
 }
 
-export default function Project({ title, img, link }: ProjectProps) {
+export default function Project({ title, img, link, desc }: ProjectProps) {
   return (
     <div className="project">
       <span className="title">{title}</span>
@@ -18,8 +19,8 @@ export default function Project({ title, img, link }: ProjectProps) {
             Ver código &rarr; <FaGithub />
           </a>
         </p>
-        <p>{}</p>
-      </div>
+        
+      </div><p className="desc">{desc}</p>
     </div>
   );
 }
