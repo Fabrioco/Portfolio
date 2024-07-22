@@ -5,10 +5,10 @@ import "./Home.css";
 
 export function Home() {
   return (
-    <div className="home-container">
+    <>
       <Left />
       <Center />
       <Right />
-    </div>
+    </>
   );
 }

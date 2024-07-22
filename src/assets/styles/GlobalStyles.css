@@ -17,7 +17,7 @@ body {
 
 .border-left {
   width: 10%;
-  min-height: 3377px;
+  min-height: 100%;
   background-color: #222433;
   position: absolute;
   top: 0;
@@ -27,7 +27,7 @@ body {
 
 .border-right {
   width: 10%;
-  min-height: 3377px;
+  min-height: 100%;
   background-color: #222433;
   position: absolute;
   top: 0;

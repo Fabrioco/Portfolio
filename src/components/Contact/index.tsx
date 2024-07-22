@@ -4,7 +4,7 @@ import CircularText from "../../shared/CircularText";
 
 export function Contact() {
   return (
-    <div className="contact">
+    <>
       <h1 className="title">Formas de contato</h1>
       <div className="contact-content">
         <p>Fabriciooliveiralopes50@gmail.com</p>
@@ -25,6 +25,6 @@ export function Contact() {
         text="VAMOS TRABALHAR JUNTOS! VAMOS TRABALHAR JUNTOS!"
         radius={120}
       />
-    </div>
+    </>
   );
 }
