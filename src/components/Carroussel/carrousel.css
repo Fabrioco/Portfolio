@@ -1,15 +1,31 @@
+.carrousel-wrapper {
+  overflow: hidden;
+  width: 80%;
+  background-color: var(--color-bg);
+  border-bottom: 1px solid #69696982;
+  margin: auto;
+}
+
 .carrousel-container {
   display: flex;
-  width: 80%;
-  height: 300px;
-  margin: auto;
-  background-color: var(--color-bg);
-  align-items: center;
-  justify-content: space-around;
-  border-bottom: 1px solid #69696982;
+  width: calc(100% * 6);
+  animation: carrouselAnimation 20s linear infinite;
 }
 
 .carrousel {
-  width: 100px;
-  height: 100px;
+  flex: 1 0 auto;
+  font-size: 3rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes carrouselAnimation {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }

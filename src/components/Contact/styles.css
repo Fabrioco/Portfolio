@@ -22,13 +22,17 @@
 .contact-content {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
   font-family: var(--font-paragraph);
   color: #fefefe;
   gap: 20px;
 }
 
 .contact-content > p {
-  font-size: 18px;
+  font-size: 1em;
+  width: 100%;
   text-align: center;
 }
 

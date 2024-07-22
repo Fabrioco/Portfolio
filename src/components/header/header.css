@@ -4,6 +4,7 @@ header {
   align-items: center;
   background-color: var(--color-bg);
   width: max(600px, 80%);
+  min-height: 100px;
   margin: auto;
   height: 80px;
   border-radius: 17px 17px 0 0;

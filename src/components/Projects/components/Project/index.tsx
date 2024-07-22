@@ -19,8 +19,8 @@ export default function Project({ title, img, link, desc }: ProjectProps) {
             Ver código &rarr; <FaGithub />
           </a>
         </p>
-        
-      </div><p className="desc">{desc}</p>
+      </div>
+      <p className="desc-project">{desc}</p>
     </div>
   );
 }

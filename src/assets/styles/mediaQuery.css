@@ -1,0 +1,84 @@
+@media only screen and (max-width: 768px) {
+  body {
+    text-align: center;
+  }
+
+  header {
+    display: flex;
+    width: 80%;
+    align-content: center;
+    justify-items: center;
+  }
+
+  header > main {
+    width: 80%;
+  }
+
+  header > nav {
+    width: 20%;
+  }
+
+  .home-container {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 500px;
+  }
+
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    min-height: 200px;
+    padding: 0 30px;
+  }
+
+  .main-content > p {
+    display: none;
+  }
+
+  .right-content {
+    display: none;
+  }
+
+  .about-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .about-container > .desc {
+    flex-wrap: wrap;
+    width: 90%;
+    padding: 30px 0;
+    justify-content: center;
+  }
+
+  .about-container > .desc > .text {
+    width: 90%;
+    height: inherit;
+  }
+
+  .about-container > .desc > .profile {
+    width: 90%;
+    height: inherit;
+  }
+
+  .projects-container > .list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    width: 100%;
+    height: inherit;
+    gap: 60px;
+  }
+
+  .contact-content > p {
+    font-size: 14px;
+  }
+
+  .circular-text {
+    display: none;
+  }
+}
