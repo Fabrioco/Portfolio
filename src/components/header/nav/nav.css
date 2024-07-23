@@ -1,0 +1,50 @@
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  gap: 10px;
+}
+
+.links > .link,
+.links > .link > a {
+  font-family: var(--font-paragraph);
+  color: var(--color-second);
+  text-decoration: none;
+  transition: all 300ms;
+}
+
+.link:hover,
+.link:hover > a {
+  color: #99fede;
+  text-shadow: 0 0 7px #0000009e;
+}
+
+.link:active,
+.link:active > a {
+  color: #1fedab;
+}
+
+.modal {
+  display: none;
+}
+
+.modal.open {
+  display: block;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #0000006f;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+}
+
+.modal > svg {
+  align-self: flex-end;
+  padding: 10px;
+}
+

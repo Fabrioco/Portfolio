@@ -23,31 +23,6 @@ header > main {
   color: var(--color-first);
 }
 
-header > nav > ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
-}
-.link,
-.link > a {
-  font-family: var(--font-paragraph);
-  color: var(--color-second);
-  text-decoration: none;
-  transition: all 300ms;
-}
-
-.link:hover,
-.link:hover > a {
-  color: #99fede;
-  text-shadow: 0 0 7px #0000009e;
-}
-
-.link:active,
-.link:active > a {
-  color: #1fedab;
-}
-
 header > section {
   display: flex;
   justify-content: center;
