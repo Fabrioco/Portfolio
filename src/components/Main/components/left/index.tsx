@@ -1,5 +1,5 @@
 import "./index.css";
-import curriculo from "../../../../assets/files/curriculo-fabricio-lopes.pdf";
+import curriculo from "../../../../assets/files/Fabricio-Lopes-dev.pdf";
 
 export default function Left() {
   return (
@@ -11,7 +11,7 @@ export default function Left() {
         desafios complexos.
       </p>
       <a href={curriculo} download>
-        Baixar Curriculo
+        Baixar Currículo
       </a>
     </div>
   );
