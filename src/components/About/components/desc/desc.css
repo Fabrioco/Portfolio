@@ -1,8 +1,8 @@
 .desc {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  width: 80%;
+  width: 100%;
   min-height: 400px;
   background-color: var(--color-bg);
   margin: auto;
