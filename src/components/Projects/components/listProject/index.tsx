@@ -4,6 +4,7 @@ import loja from "../../../../assets/images/loja.png";
 import dog from "../../../../assets/images/dog.png";
 import flix from "../../../../assets/images/flix.png";
 import devfood from "../../../../assets/images/devfood.png";
+import ecommerce from "../../../../assets/images/eCommerce.png";
 
 export default function ListProjects() {
   return (
@@ -13,6 +14,12 @@ export default function ListProjects() {
         img={loja}
         link="https://github.com/Fabrioco/Loja"
         desc="E-commerce"
+      />
+      <Project
+        title="E-commerce Fullstack"
+        img={ecommerce}
+        link="https://github.com/Fabrioco/e-commerce-fullstack"
+        desc="E-Commerce"
       />
       <Project
         title="Dog Imperador"
