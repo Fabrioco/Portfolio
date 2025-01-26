@@ -16,12 +16,6 @@ export default function ListProjects() {
         desc="E-commerce"
       />
       <Project
-        title="E-commerce Fullstack"
-        img={ecommerce}
-        link="https://github.com/Fabrioco/e-commerce-fullstack"
-        desc="E-Commerce"
-      />
-      <Project
         title="Dog Imperador"
         img={dog}
         link="https://github.com/Fabrioco/dog-imperador"
