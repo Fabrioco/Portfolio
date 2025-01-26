@@ -2,8 +2,9 @@ import Project from "../Project";
 import "./styles.css";
 import loja from "../../../../assets/images/loja.png";
 import dog from "../../../../assets/images/dog.png";
-import flix from "../../../../assets/images/flix.png";
-import devfood from "../../../../assets/images/devfood.png";
+import hotmart from "../../../../assets/images/hotmart.png";
+import ecommerce from "../../../../assets/images/ecommerce.png";
+import barber from "../../../../assets/images/barber.png";
 
 export default function ListProjects() {
   return (
@@ -21,16 +22,22 @@ export default function ListProjects() {
         desc="Landing Page"
       />
       <Project
-        title="Prime-Flix"
-        img={flix}
-        link="https://github.com/Fabrioco/Prime-Flix"
-        desc="Landing Page"
+        title="Hotmart"
+        img={hotmart}
+        link="https://github.com/Fabrioco/hotmart"
+        desc="Venda de cursos"
       />
       <Project
-        title="DevFood"
-        img={devfood}
-        link="https://github.com/Fabrioco/DevFood"
-        desc="App Mobile"
+        title="E-commerce"
+        img={ecommerce}
+        link="https://github.com/Fabrioco/e-commerce-fullstack"
+        desc="E-commerce Full stack"
+      />
+      <Project
+        title="Agendamento Barbearia"
+        img={barber}
+        link="https://github.com/Fabrioco/Site-Barbearia"
+        desc="Landing Page"
       />
     </div>
   );

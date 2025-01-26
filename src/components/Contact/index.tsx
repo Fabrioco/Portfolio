@@ -1,6 +1,7 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import "./styles.css";
 import CircularText from "../../shared/CircularText";
+import { FaInstagram } from "react-icons/fa6";
 
 export function Contact() {
   return (
@@ -18,6 +19,9 @@ export function Contact() {
           </a>
           <a href="https://github.com/Fabrioco" className="icon">
             <FaGithub size={30} />
+          </a>
+          <a href="" className="icon">
+            <FaInstagram  size={30}/>
           </a>
         </nav>
       </div>
